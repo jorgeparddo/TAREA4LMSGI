@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE prisiones SYSTEM "prisiones.dtd">
+<prisiones>
+    <prision>
+        <codigo>001</codigo>
+        <nombre>Prisión Central</nombre>
+        <director>
+            <nombre_completo>Juan Pérez García</nombre_completo>
+            <fecha_nombramiento>2020-01-15</fecha_nombramiento>
+        </director>
+        <direccion>Calle Mayor, 123, Madrid</direccion>
+        <fecha_inauguracion>1980-06-15</fecha_inauguracion>
+        <capacidad>500</capacidad>
+        <funcionarios>
+            <funcionario>
+                <puesto>carcelero</puesto>
+                <fecha_incorporacion>2015-09-10</fecha_incorporacion>
+                <nombre_completo>María López Fernández</nombre_completo>
+            </funcionario>
+        </funcionarios>
+        <reclusos>
+            <recluso>
+                <numero_recluso>1001</numero_recluso>
+                <nombre_completo>Pedro Sánchez Gómez</nombre_completo>
+                <celda>12</celda>
+                <fecha_ingreso>2023-01-10</fecha_ingreso>
+                <duracion_condena>5 años</duracion_condena>
+                <peligrosidad>posiblemente peligroso</peligrosidad>
+            </recluso>
+        </reclusos>
+        <celdas>
+            <celda_disponible>
+                <numero_celda>15</numero_celda>
+                <pabellon>A</pabellon>
+                <plazas>2</plazas>
+            </celda_disponible>
+        </celdas>
+    </prision>
+</prisiones>
